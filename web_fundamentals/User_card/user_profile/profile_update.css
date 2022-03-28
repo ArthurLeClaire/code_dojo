@@ -1,0 +1,172 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+#container {
+	width: auto;
+	min-height: 300px;
+	color: black;
+}
+/*-------------------------------------------TOP NAV-------------------------------------------------*/
+#topNav {
+	width: auto;
+	height: 80px;
+	background-color: black;
+	display: flex;
+	align-items: center;
+}
+
+.links {
+	width: 600px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	color: white;
+	margin-left: 150px;
+}
+.links a {
+	color: white;
+}
+.signOut {
+	position: absolute;
+
+	width: 100px;
+	padding: 3px;
+	margin-left: 1320px;
+	color: white;
+	background-color: lightseagreen;
+}
+/*------------------------------COLUMN LEFT--------------------------------------- */
+#columnLeft {
+	margin-left: 180px;
+}
+.user.card {
+	border: 2px solid grey;
+	width: 500px;
+	flex: auto;
+	height: 400px;
+	margin-bottom: 20px;
+	margin-top: 40px;
+}
+.card.header {
+	background-color: aqua;
+	width: 506px;
+	height: 100px;
+	margin-top: -4px;
+	margin-left: -3px;
+	border-radius: 5px;
+}
+
+.myPic {
+	margin-left: 30px;
+	border-radius: 70px;
+	margin-top: 50px;
+	height: 90px;
+	width: 90px;
+	object-fit: cover;
+}
+.user-card-body {
+	background-color: white;
+	margin-top: 50px;
+	margin-left: 15px;
+	height: 100px;
+}
+.locationIcon {
+	height: 20px;
+}
+
+a {
+	color: lightskyblue;
+}
+
+.educationHeader {
+	background-color: rgb(44, 41, 41);
+	color: white;
+	margin-left: -3px;
+	width: 505px;
+	border-radius: 5px;
+}
+
+.education {
+	width: 500px;
+	height: 150px;
+	border: 2px solid grey;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	font-size: small;
+}
+
+/*------------------------------- COLUMN RIGHT------------------------------- */
+.columnRight {
+	background-color: white;
+	margin-top: -600px;
+	margin-left: 850px;
+	margin-right: 100px;
+}
+
+.people {
+	border-radius: 30px;
+	height: 50px;
+	width: 50px;
+}
+
+.connectionRequests {
+	border: 2px solid grey;
+}
+
+.reqHeader {
+	background-color: rgb(44, 41, 41);
+	border-radius: 50px;
+	color: white;
+	margin-left: -2px;
+	margin-top: -2px;
+	margin-right: -2px;
+	border-radius: 5px;
+}
+
+.reqBody {
+	width: 500px;
+	height: 150px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+.connectionHeader {
+	background-color: rgb(44, 41, 41);
+	border-radius: 50px;
+	color: white;
+	margin-left: -2px;
+	margin-top: -2px;
+	margin-right: -2px;
+	border-radius: 5px;
+	height: 40px;
+	margin-top: -43px;
+}
+
+.yourConnections {
+	padding-top: 40px;
+	border: 2px solid grey;
+	margin-top: 30px;
+}
+
+.buttonSizing {
+	height: 30px;
+	width: 30px;
+}
+.btn-add {
+	width: 35px;
+	height: 35px;
+	border-radius: 20px;
+}
+.btn-add-two {
+	width: 35px;
+	height: 35px;
+	border-radius: 20px;
+}
+.friendRequests {
+	margin-right: 300px;
+	float: right;
+	margin-top: 10px;
+}
