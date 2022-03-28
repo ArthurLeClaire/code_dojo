@@ -1,0 +1,103 @@
+* {
+	margin: auto;
+}
+
+/* -----------------NAV BAR------------------------ */
+
+.topBar {
+	width: 75%;
+	height: 75px;
+	/* margin: 0px auto; */
+	background-color: rgb(224, 222, 61);
+	display: flex;
+}
+
+/* .pageName {
+	margin-right: 10%;
+} */
+
+/* .search {
+	margin-right: 80%;
+} */
+
+#search {
+	height: 30px;
+	margin-left: -100px;
+	margin-top: 20px;
+	background-color: rgb(241, 219, 190);
+	color: grey;
+	font-weight: bold;
+}
+
+#loginButton {
+	color: white;
+	background-color: cadetblue;
+	height: 30px;
+	width: 70px;
+	margin-top: 20px;
+}
+
+/* ---------------------RIGHT COLUMN------------------------ */
+
+.cardNinja {
+	background-color: rgb(236, 231, 232);
+	width: 600px;
+	height: 200px;
+	padding-left: 240px;
+	padding-top: 90px;
+	margin-left: 290px;
+	margin-top: 30px;
+	margin-bottom: 40px;
+	border-style: solid;
+	border-color: black;
+	border-width: 2px;
+}
+
+.likes {
+	height: 35px;
+	width: 100px;
+	background-color: paleturquoise;
+	margin: 50px;
+	margin-left: -5px;
+}
+
+.ninjaCard {
+	background-color: rgb(236, 231, 232);
+	width: 600px;
+	height: 200px;
+	padding-left: 240px;
+	padding-top: 90px;
+	/* padding: 55px; */
+	margin-left: 290px;
+	margin-top: 30px;
+	margin-bottom: 40px;
+	border-style: solid;
+	border-color: black;
+	border-width: 2px;
+}
+
+/* ------------------------------RIGHT COLUMN---------------- */
+
+.addDefinition {
+	background-color: pink;
+	width: 600px;
+	height: 200px;
+	padding-left: 240px;
+	padding-top: 90px;
+	padding: 55px;
+	margin-left: 1200px;
+	margin-top: -670px;
+	margin-bottom: 40px;
+	border-style: solid;
+	border-color: black;
+	border-width: 2px;
+}
+
+.addDef {
+	padding: 5px;
+	margin-left: 35px;
+	margin-top: 30px;
+	width: 130px;
+	height: 45px;
+	background-color: cyan;
+}

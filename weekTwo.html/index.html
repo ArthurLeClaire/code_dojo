@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<div class="container">
+			<div class="topBar">
+				<h1 class="pageName">Dojonary</h1>
+				<input type="text" name="search" id="search" />
+				<button onclick="login" () id="loginButton">Login</button>
+			</div>
+
+			<!-----------------------------------------------------------LEFT COLUMN------------------------------------------------------------------------ -->
+
+			<div class="colLeft">
+				<div class="cardNinja">
+					<h2 class="ninja-text">Ninja</h2>
+					<!-- <img src="ninja-text" alt="word-ninja" /> -->
+					<h4 class="noun">Plural: ninjas</h4>
+					<a href=""></a>
+					<p class="definition">
+						A practitioner skilled in the <a href="">Japanese</a> art of
+						<a href="">ninjutsu</a>
+					</p>
+					<button class="likes" onclick="likesOne()">13 likes</button>
+				</div>
+
+				<div class="ninjaCard">
+					<h2 class="ninja-text">Ninja</h2>
+					<p class="noun">Plural: ninjas</p>
+					<p class="definition">
+						<a href="">programmer</a> who breaks down probles with
+						<a href="">ninjzenutsu</a>-like focus
+					</p>
+					<button class="likes" onclick="likesOne()">37 likes</button>
+				</div>
+			</div>
+
+			<!-- -----------------------------------------------------------------------------------------RIGHT COLUMN--------------------------------------->
+			<div class="colRight">
+				<div class="addDefinition">
+					<h2 class="editDefinition">Dojonary is defined by you</h2>
+					<button class="addDef" onclick="removeButton()">
+						Add Definition
+					</button>
+				</div>
+			</div>
+		</div>
+		<script src="javaScript.js"></script>
+	</body>
+</html>
