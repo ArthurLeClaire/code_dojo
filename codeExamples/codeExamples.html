@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+	</head>
+	<body>
+		<h1>Most important</h1>
+		<h2>h2</h2>
+		<h3>h3</h3>
+		<h4>h4</h4>
+		<h5>h5</h5>
+		<h6>least important header</h6>
+
+		<!-- -----------------PARAGRAPHS -->
+		<p>This is a paragraph.</p>
+		<p>This is a second paragraph.</p>
+
+		<!--------------------ANCHOR TAGS / LINKS -->
+		<a href="http://learn.codingdojo.com">Learn Platform</a>
+
+		<!-- -----------------EMPHASIS AND STRONG -->
+		<p><em>This</em> is an <strong>example!</strong></p>
+
+		<!-- ------------------UNORDERD BULLET LISTS -->
+		<ul>
+			<li>Dog</li>
+			<li>Cat</li>
+			<li>Dragon</li>
+			<li>Monkey</li>
+		</ul>
+
+		<!-- -----------------------ORDERED NUMBER LISTS -->
+		<ol>
+			<li>Dog</li>
+			<li>Cat</li>
+			<li>Dragon</li>
+			<li>Monkey</li>
+		</ol>
+
+		<!-- -------------------------TABLES-----TR=TABLE ROWS -->
+		<table>
+			<tr>
+				<th>Movie</th>
+				<th>Year</th>
+				<th>Rating</th>
+			</tr>
+			<tr>
+				<td>Up</td>
+				<td>2009</td>
+				<td>PG</td>
+			</tr>
+			<tr>
+				<td>The Matrix</td>
+				<td>1999</td>
+				<td>R</td>
+			</tr>
+		</table>
+
+		<!-----In the code examples above, tags like <li> or <td> are always used inside of other tags like <ul> or <tr>. 
+            When an HTML tag is nested inside of another tag, we call the inside tag a child of the outer tag. 
+            Adjacent child tags like the multiple <li> are considered siblings of each other.-------------------- -->
+
+		<!-------------------------IMAGES / VIDEOS--------- -->
+		<img src="panda.jpg" alt="panda pic" />
+
+		<video src="monkey2.mp4" controls></video>
+
+		<!-- If we want a video to autoplay on modern browsers, 
+    we need to include autoplay, loop, and muted. -->
+
+		<video src="monkey2.mp4" autoplay loop muted></video>
+
+		<!--------------------------QUESTION ON QUIZ -->
+
+		<h1>Ninja</h1>
+		<p>
+			Ninja are practitioners of the Japanese art of
+			<a href="https://en.wikipedia.org/wiki/Ninjutsu">ninjutsu.</a>
+		</p>
+		<p>Some common techniques are:</p>
+		<ul>
+			<li>Stealth</li>
+			<li>Disguise</li>
+			<li>Kenjutsu</li>
+		</ul>
+
+		<h3>Lorem Ipsum Dolor Sit?</h3>
+		<p>
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, ipsam
+			placeat earum fugit sapiente unde blanditiis porro recusandae dolor!
+			Dolorem quisquam deleniti earum aspernatur voluptas fugit dignissimos
+			doloremque pariatur ipsum! Animi quo molestiae omnis iure suscipit cum,
+			autem, illum debitis voluptates dicta alias mollitia provident est
+			perspiciatis minima aspernatur ratione tenetur, neque ab accusamus quis.
+		</p>
+
+		<!-- 
+
+
+
+ -->
+
+		<!-- <!DOCTYPE html>
+<html>
+    <head>
+        <title> Hello World! </title>
+    </head>
+    <body>
+        <h1> Here is a heading tag </h1>
+        <p> Now a paragraph tag </p>
+    </body>
+</html> -->
+
+		<!-- 
+           ^ IN THE EXAMPLE ABOVE ^
+<html> is the root element
+<html> has no parents
+<html> is the parent of <head> and <body>
+<head> is the first child of <html>
+<body> is the last child of <html>
+and:
+
+<head> has one child: <title>
+<title> has one content (text): "Hello World!"
+<body> has two children: <h1> and <p>
+<h1> has one content (text): "Here is a heading tag"
+<p> has one content (text): "Now a paragraph tag"
+<h1> and <p> are siblings
+<head> and <body> are siblings -->
+		<!--  -->
+		<!--  -->
+
+		<table>
+			<thead>
+				<tr>
+					<th>First Name</th>
+					<th>Last Name</th>
+					<th>Email</th>
+					<th>Password</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Brendan</td>
+					<td>Stanton</td>
+					<td>brendanrocks@gmail.com</td>
+					<td>FakePassword123</td>
+				</tr>
+			</tbody>
+		</table>
+		<h1>Here is a list of my favorite things:</h1>
+		<ul>
+			<li>Food</li>
+			<li>Bandwidth</li>
+			<li>Coffee</li>
+			<li>Beach</li>
+		</ul>
+
+		<!-- -----------TEXT INPUTS BOX -->
+		<input type="text" name="first_name" />
+
+		<!-- ---------------NUMBER INPUTS -->
+		<input type="number" name="age" />
+
+		<!-- -----------PASSWORDS BOX-->
+		<input type="password" name="password" />
+
+		<!-- -----------------DATE BOX -->
+		<input type="date" name="dob" />
+
+		<!-- ------------------RADIO -->
+		<input type="radio" name="font" value="bold" id="bold" />
+		<label for="bold"><strong>Bold</strong></label>
+		<input type="radio" name="font" value="normal" id="normal" />
+		<label for="normal">Normal</label>
+
+		<!-- -----------------COLOR BOX -->
+		<input type="color" name="text_color" />
+
+		<!-- --------------------------CHECKBOX -->
+		<input type="checkbox" name="accept" id="accept" />
+		<label for="accept">I agree</label>
+
+		<!-- --------------------TEXTAREA -->
+		<textarea name="comment" cols="20" rows="3"></textarea>
+
+		<!-- -----------------SELECT BOX -->
+		<select name="snack">
+			<option>Almonds</option>
+			<option>Cheese and Crackers</option>
+			<option>Pita and Hummus</option>
+			<option>Pears</option>
+		</select>
+
+		<!-- ------------------------COMMON FORM -->
+		<form action="/process" method="post">
+			<div>
+				<label>Name: </label>
+				<input type="text" name="name" placeholder="Your name..." />
+			</div>
+			<div>
+				<label>Email: </label>
+				<input type="text" name="email" placeholder="Your email..." />
+			</div>
+			<div>
+				<input type="checkbox" name="offers" id="offers" checked />
+				<label for="offers">I would like to receive email offers!</label>
+			</div>
+			<input type="submit" value="Sign Up!" />
+		</form>
+
+		<!--
+
+    The <div></div> element exists for us to create a division in our code where we 
+    can group tags that have a common purpose together. In the example above we do
+    this so that the <label> and <input> tags are lined up next to each other. As we learN
+    more about HTML we'll see many cases where using a div will let us define boxes 
+    of content or (with enough styling) they can be made into any shape we can think of.  -->
+
+		<form action="/process" method="post">
+			<input type="text" name="username" value="Rebecca" />
+			<input type="submit" value="Enter Username" />
+		</form>
+
+		<!--^^^^^^^^^^^^^input {
+    padding: 5px;
+    border-color: rebeccapurple;
+}
+input[type="text"] {
+    border: none;
+    border-bottom: 2px solid rebeccapurple;
+}
+input[type="submit"] {
+    color: white;
+    background-color: rebeccapurple;
+}
+
+<!-- some block elements -->
+		<h1>Hello World</h1>
+		<h2>Goodbye World</h2>
+		<!-- some inline elements -->
+		<label>First Name:</label>
+		<input type="text" name="first_name" />
+		<label>Last Name:</label>
+		<input type="text" name="last_name" />
+
+		<!--^^^^^^^^^^^^^CSS CODE TO INLINE THESE BLOCKS  -->
+
+		<!-- h1, h2 {
+    display: inline-block;
+    background-color: cyan;
+    width: 200px; /* this will work! */
+} -->
+
+		<!-- -------------------------COLUMNS--------- -->
+		<p>Lorem ipsum dolor sit amet.</p>
+		<p>Lorem ipsum dolor sit amet.</p>
+
+		<!-- ^^^^^^^^^^^^^^^^^^CSS FOR THESE COLUMNS--------- -->
+		<!-- p {
+  display: inline-block;
+  width: 160px;
+  box-sizing: border-box;
+  padding: 20px;
+  background-color: lightcyan;
+  margin: 10px;
+} -->
+
+		<!---------------USING FLEX------------ -->
+		<div class="container">
+			<div class="col">
+				<h3>Lorem</h3>
+				<p>Lorem ipsum dolor sit amet consectetur.</p>
+			</div>
+			<div class="col">
+				<h3>Ipsum</h3>
+				<p>Lorem ipsum dolor sit amet consectetur.</p>
+			</div>
+			<div class="col">
+				<h3>Dolor</h3>
+				<p>Lorem ipsum dolor sit amet consectetur.</p>
+			</div>
+		</div>
+
+		<!---------------^^^^^^^^^^^CSS UTILIZING FLEX----------  -->
+		<!-- .container {
+    width: 720px;
+    height: 250px;
+    background-color: silver;
+    display: flex;
+    align-items: center;
+}
+    
+.col {
+    width: 220px;
+    padding: 10px;
+    background-color: blanchedalmond;
+} -->
+
+		<!-- ----------------FLEX BASIC------- -->
+		<div id="dojo">
+			<img src="blue.png" alt="blue ninja" />
+			<img src="green.png" alt="green ninja" />
+			<img src="purple.png" alt="purple ninja" />
+			<img src="red.png" alt="red ninja" />
+		</div>
+
+		<!-- ^^^^^^^^^^^^^^^^CSS W DISPLAY FLEX------ -->
+		<!-- #dojo {
+    width: 400px;
+    height: 200px;
+    background-color: grey;
+    display: flex; /* this line is new! */
+} -->
+
+		<!-------ALIGN ITEMS CENTERED WAS ADDED
+    -#dojo {
+    width: 400px;
+    height: 200px;
+    background-color: grey;
+    display: flex;
+    align-items: center; /* this line is new! */
+}
+-->
+		<!-- JUSTIFY CONTENT  FLEX START WAS ADDED WAS ADDED
+    #dojo {
+    width: 400px;
+    height: 200px;
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* this line is new */
+}
+
+<!-->
+
+		<!-- --------JUSTIFY CONTENT CENTER WAS ADDED -->
+		<!-- #dojo {
+    width: 400px;
+    height: 200px;
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} -->
+
+		<!-- ---------JUSTIFY CONTENT FLEX END WAS ADDED -->
+		<!-- #dojo {
+    width: 400px;
+    height: 200px;
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+ -->
+
+		<!-- --------------JUSTIFY CONTENT SPACE BETWEEN WAS ADDED -->
+		<!--#dojo {
+    width: 400px;
+    height: 200px;
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+-->
+
+		<!-- ------------JUSTIFY CONTENT SPACE EVENLY WAS ADDED -->
+		<!--#dojo {
+    width: 400px;
+    height: 200px;
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+  -->
+
+		<!-- ------------JUSTIFY CONTENT SPACE AROUND WAS ADDED -->
+		<!-- #dojo {
+    width: 400px;
+    height: 200px;
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+ -->
+
+		<!-- ------------FLEX SHORT-HAND -->
+
+		<div class="row">
+			<div class="col">Column</div>
+			<div class="col">Column</div>
+		</div>
+
+		<!-- ^^^^^^^^^FLEX SHORT-HAND CSS -->
+		<!--   
+.row {
+  display: flex;  
+}
+.col {
+  flex: 1;
+  background-color: lightgreen;
+  padding: 20px;
+  margin: 10px;
+} -->
+
+		<!-- ---------------------FLEX ROWS -->
+		<div class="row">
+			<div class="col">1/4</div>
+			<div class="col">1/4</div>
+			<div class="col">1/4</div>
+			<div class="col">1/4</div>
+		</div>
+
+		<div class="row">
+			<div class="col">1/4</div>
+			<div class="col">1/4</div>
+			<div class="col">1/4</div>
+			<div class="col">1/4</div>
+		</div>
+
+		<div class="row">
+			<div class="col">1/4</div>
+			<div class="col">1/4</div>
+			<div class="col">1/4</div>
+			<div class="col">1/4</div>
+		</div>
+
+		<!-- ------------------------------------POSITION CODE--- -->
+
+		<div class="container">
+			<h1>Title</h1>
+			<div id="message">
+				<div class="header"><span>I am an Alert!</span><span>×</span></div>
+				<p>
+					This is some arbitrary alert text!, don't worry about what it actually
+					says!
+				</p>
+				<button>OK</button>
+			</div>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum
+				deleniti saepe odit pariatur delectus repudiandae atque illum aperiam
+				possimus numquam vel, quo ducimus nulla est, id sunt optio eius
+				voluptas. Repudiandae commodi temporibus aliquid illum beatae eveniet
+				unde cum officia rem possimus aut cupiditate, sint rerum accusantium
+				itaque explicabo tenetur voluptate necessitatibus corrupti provident
+				praesentium?
+			</p>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum
+				deleniti saepe odit pariatur delectus repudiandae atque illum aperiam
+				possimus numquam vel, quo ducimus nulla est, id sunt optio eius
+				voluptas. Repudiandae commodi temporibus aliquid illum beatae eveniet
+				unde cum officia rem possimus aut cupiditate, sint rerum accusantium
+				itaque explicabo tenetur voluptate necessitatibus corrupti provident
+				praesentium?
+			</p>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum
+				deleniti saepe odit pariatur delectus repudiandae atque illum aperiam
+				possimus numquam vel, quo ducimus nulla est, id sunt optio eius
+				voluptas. Repudiandae commodi temporibus aliquid illum beatae eveniet
+				unde cum officia rem possimus aut cupiditate, sint rerum accusantium
+				itaque explicabo tenetur voluptate necessitatibus corrupti provident
+				praesentium?
+			</p>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum
+				deleniti saepe odit pariatur delectus repudiandae atque illum aperiam
+				possimus numquam vel, quo ducimus nulla est, id sunt optio eius
+				voluptas. Repudiandae commodi temporibus aliquid illum beatae eveniet
+				unde cum officia rem possimus aut cupiditate, sint rerum accusantium
+				itaque explicabo tenetur voluptate necessitatibus corrupti provident
+				praesentium?
+			</p>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum
+				deleniti saepe odit pariatur delectus repudiandae atque illum aperiam
+				possimus numquam vel, quo ducimus nulla est, id sunt optio eius
+				voluptas. Repudiandae commodi temporibus aliquid illum beatae eveniet
+				unde cum officia rem possimus aut cupiditate, sint rerum accusantium
+				itaque explicabo tenetur voluptate necessitatibus corrupti provident
+				praesentium?
+			</p>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum
+				deleniti saepe odit pariatur delectus repudiandae atque illum aperiam
+				possimus numquam vel, quo ducimus nulla est, id sunt optio eius
+				voluptas. Repudiandae commodi temporibus aliquid illum beatae eveniet
+				unde cum officia rem possimus aut cupiditate, sint rerum accusantium
+				itaque explicabo tenetur voluptate necessitatibus corrupti provident
+				praesentium?
+			</p>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum
+				deleniti saepe odit pariatur delectus repudiandae atque illum aperiam
+				possimus numquam vel, quo ducimus nulla est, id sunt optio eius
+				voluptas. Repudiandae commodi temporibus aliquid illum beatae eveniet
+				unde cum officia rem possimus aut cupiditate, sint rerum accusantium
+				itaque explicabo tenetur voluptate necessitatibus corrupti provident
+				praesentium?
+			</p>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum
+				deleniti saepe odit pariatur delectus repudiandae atque illum aperiam
+				possimus numquam vel, quo ducimus nulla est, id sunt optio eius
+				voluptas. Repudiandae commodi temporibus aliquid illum beatae eveniet
+				unde cum officia rem possimus aut cupiditate, sint rerum accusantium
+				itaque explicabo tenetur voluptate necessitatibus corrupti provident
+				praesentium?
+			</p>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum
+				deleniti saepe odit pariatur delectus repudiandae atque illum aperiam
+				possimus numquam vel, quo ducimus nulla est, id sunt optio eius
+				voluptas. Repudiandae commodi temporibus aliquid illum beatae eveniet
+				unde cum officia rem possimus aut cupiditate, sint rerum accusantium
+				itaque explicabo tenetur voluptate necessitatibus corrupti provident
+				praesentium?
+			</p>
+		</div>
+
+		<!-- -------------------------------------POSITION CSS -->
+		* { margin: 0; padding: 0; font-family: sans-serif; } .container { width:
+		800px; margin: 0 auto; padding: 20px; box-shadow: 4px 4px 4px grey; } h1 {
+		font-size: 50px; padding-bottom: 10px; margin-bottom: 20px; border-bottom:
+		1px solid #ccc; } p { margin: 20px 0; font-size: 1.1rem; } #message { width:
+		inherit; border: 1px solid #eee; border-radius: 10px; background-color:
+		#fff; box-shadow: 4px 4px 4px grey; /* change the position properties here
+		*/ position: fixed; bottom: 80px; } #message * { margin: 10px; } #message
+		.header { margin: 0px; background-color: #ddd; padding: 10px; font-weight:
+		900; display: flex; justify-content: space-between; } #message button {
+		height: 30px; width: 80px; }
+
+		<!-- 
+
+
+
+
+
+     -->
+	</body>
+</html>
