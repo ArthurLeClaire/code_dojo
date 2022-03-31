@@ -1,0 +1,91 @@
+#container {
+	width: 960px;
+	height: auto;
+	margin: 0px 40px;
+	font-family: cursive;
+}
+#topNav {
+	background-color: black;
+	color: tomato;
+	height: 50px;
+	width: 875px;
+	text-indent: 40px;
+	margin-left: 60px;
+}
+
+.yourFeed {
+	text-align: center;
+	font-size: x-large;
+}
+
+#body {
+	margin: 30px;
+	display: inline-block;
+	display: flex;
+}
+
+#userColumn {
+	margin: 0px 30px;
+	background-color: tomato;
+	border: solid black 4px;
+	height: 290px;
+	width: 170px;
+	text-indent: 15px;
+}
+
+.myPic {
+	height: 100px;
+	width: 100px;
+	border-radius: 50px;
+	margin: 30px 20px 15px;
+}
+
+.avatar,
+.userName {
+	margin-left: 5px;
+}
+
+.userName {
+	margin-top: 25px;
+}
+
+#boxOne,
+#boxTwo,
+#boxThree {
+	border: solid black 4px;
+	height: 200px;
+	width: 650px;
+}
+
+.friendLine {
+	margin: 10px 10px 10px 30px;
+	display: flex;
+	/* align-items: center; */
+	justify-content: space-between;
+}
+
+#boxTwo,
+#boxThree {
+	margin-top: 15px;
+}
+
+.boxOneLikes,
+.boxTwoLikes,
+.boxThreeLikes {
+	margin-left: 20px;
+	/* padding-right: 30px; */
+}
+
+#boxLike {
+	height: 40px;
+	width: 100px;
+	margin: 15px 45px;
+	border: solid black 3px;
+	box-shadow: 10px 5px 5px tomato;
+	font-size: x-large;
+	background-color: goldenrod;
+}
+
+.friendText {
+	text-indent: 30px;
+}

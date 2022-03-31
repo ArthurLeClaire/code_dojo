@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="stylesheet" href="style.likes.css" />
+	</head>
+	<body>
+		<div class="container" id="container">
+			<div class="topNav" id="topNav">
+				<h1 id="network">Network</h1>
+			</div>
+			<div class="yourFeed" id="yourFeed">
+				<h2>Your Feed</h2>
+			</div>
+			<div class="body" id="body">
+				<div class="leftColumn" id="leftColumn">
+					<div class="userColumn" id="userColumn">
+						<img
+							class="myPic"
+							class="myPic"
+							src="images\my_face.png"
+							alt="profile-picture"
+						/>
+						<h3 class="avatar" id="avatar">
+							<a href="Add an avatar">Add an avatar</a>
+						</h3>
+						<h2 class="userName" id="userName">James Doe</h2>
+					</div>
+				</div>
+				<div class="rightColumn" id="rightColumn">
+					<div class="boxRight" id="boxOne">
+						<div class="friendLine">
+							<h2 class="friendName">Neil M</h2>
+							<h2 class="boxOneLikes">9 like(s)</h2>
+							<button onclick="functionIncrease1()" id="boxLike">Like</button>
+						</div>
+						<div class="friendText">
+							<h3>
+								I just set up this discord bot, let me know what you think.
+								<a href="discordLink">link</a>
+							</h3>
+						</div>
+					</div>
+					<div class="boxRight" id="boxTwo">
+						<div class="friendLine">
+							<h2 class="friendName">Nicole K</h2>
+							<h2 class="boxTwoLikes">12 like(s)</h2>
+							<button onclick="functionIncrease2()" id="boxLike">Like</button>
+						</div>
+						<div class="friendText">
+							<h3>
+								Just finised my <a href="nextComic">next comic</a> check it out.
+							</h3>
+						</div>
+					</div>
+					<div class="boxRight" id="boxThree">
+						<div class="friendLine">
+							<h2 class="friendName">Jim R</h2>
+							<h2 class="boxThreeLikes">9 like(s)</h2>
+							<button onclick="functionIncrease()" id="boxLike">Like</button>
+						</div>
+						<div class="friendText">
+							<h3>
+								I can't stop listening to the <a href="newAlbum">new album.</a>
+								Who else is liking it?
+							</h3>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="javaScript.js"></script>
+	</body>
+</html>
