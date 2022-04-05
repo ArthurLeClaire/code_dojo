@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<div class="container" id="container">
+			<div class="purpleBar" id="purpleBar"></div>
+			<div class="navBar" id="navBar">
+				<div class="header">
+					<h2 class="gameHead">Gaming<span class="Dojo">Dojo</span></h2>
+				</div>
+				<div class="euroCart">
+					<select name="Euro" class="Euro" id="Euro">
+						<option>Euro</option>
+					</select>
+				</div>
+				<img src="images/cafe-neko.png" alt="" />
+
+				<div id="cart">
+					<img class="cart" src="images\cart-light.png" alt="shoppingCart" />
+					<u class="cartItems">0</u>
+					<img class="search" src="images\search-light.png" alt="searchIcon" />
+				</div>
+			</div>
+			<div class="highlights">
+				<h4>Highlights</h4>
+			</div>
+			<div id="stonePunk">
+				<button onclick="changePic()" class="arrow">
+					<span>&#8249;</span>
+				</button>
+				<img id="punkStone" src="images\stonepunk.png" alt="" />
+				<button onclick="changePic()" class="arrow">
+					<span>&#8250;</span>
+				</button>
+			</div>
+			<div class="blockBars"></div>
+			<div class="bottomContainer">
+				<div id="cafeNeko">
+					<img class="bottomImage" src="images\cafe-neko.png" alt="cafeNeko" />
+					<h3>Cafe Neko: Gold Edition</h3>
+					<img class="iconImg" src="images\windows.png" alt="windowsIcon" />
+					<img class="iconImg" src="images\apple.png" alt="appleIcon" />
+					<div class="bottomBuy">
+						<div class="discount">
+							<h3>-20%</h3>
+						</div>
+						<div class="slashedPrice">
+							<h2><strike>14.98</strike></h2>
+							<h3>10.49</h3>
+						</div>
+						<button onclick="functionIncrease2()" class="buyBtn">Buy</button>
+					</div>
+				</div>
+				<div class="pixelNinjas">
+					<img class="bottomImage" src="images\pixel-ninjas-2.png" alt="" />
+					<h3>Pixel Ninjas 2</h3>
+					<img class="iconImg" src="images\windows.png" alt="windowsIcon" />
+					<img class="iconImg" src="images\apple.png" alt="appleIcon" />
+					<div class="bottomBuy">
+						<div class="discount">
+							<h3>-10%</h3>
+						</div>
+						<div class="slashedPrice">
+							<h2><strike>8.19</strike></h2>
+							<h3>7.39</h3>
+						</div>
+						<button onclick="functionIncrease1()" class="buyBtn">Buy</button>
+					</div>
+				</div>
+				<div class="stonePunk">
+					<img class="bottomImage" src="images\stonepunk.png" alt="" />
+					<h3>Stonepunk 10000 BCE</h3>
+					<img class="iconImg" src="images\windows.png" alt="windowsIcon" />
+					<img class="iconImg" src="images\apple.png" alt="appleIcon" />
+					<img
+						class="iconImg"
+						src="images\linux.png"
+						alt="linuxIcon"
+						onclick="alert	('This game is supported on Linux')"
+					/>
+					<div class="bottomBuy">
+						<div class="discount">
+							<h3>-10%</h3>
+						</div>
+						<div class="slashedPrice">
+							<h2><strike>8.19</strike></h2>
+							<h3>7.39</h3>
+						</div>
+						<button onclick="functionIncrease()" class="buyBtn">Buy</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="game.js"></script>
+	</body>
+</html>

@@ -1,0 +1,128 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+#container {
+	width: auto;
+	min-height: 800px;
+	font-family: cursive;
+	background-color: silver;
+}
+
+#purpleBar {
+	width: auto;
+	height: 10px;
+	margin: 0px;
+	background-color: purple;
+}
+#navBar {
+	/* text-indent: 40px; */
+	display: flex;
+
+	padding-top: 10px;
+	height: 60px;
+	background-color: black;
+	color: white;
+}
+.gameHead {
+	text-indent: 250px;
+}
+
+.Dojo {
+	color: purple;
+}
+.Euro {
+	margin-left: 1100px;
+	height: 30px;
+	width: 100px;
+}
+#cart {
+	height: 35px;
+	width: 55px;
+	color: white;
+	display: flex;
+
+	margin-bottom: 0px;
+	font-size: large;
+}
+.zeroNum {
+	height: 45px;
+	width: 55px;
+	color: white;
+	margin-bottom: 20px;
+}
+
+.search {
+	height: 35px;
+	width: 35px;
+	color: white;
+	margin-bottom: 20px;
+}
+
+.highlights {
+	text-indent: 250px;
+}
+.arrow {
+	width: 40px;
+}
+#stonePunk {
+	text-align: center;
+}
+.bottomContainer {
+	width: 1900px;
+	height: 600px;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	margin: 10px;
+}
+
+#cafeNeko {
+	display: inline-block;
+	justify-content: space-evenly;
+	background-color: white;
+	min-height: 200px;
+}
+
+.pixelNinjas {
+	display: inline-block;
+	justify-content: space-evenly;
+	background-color: white;
+}
+
+.stonePunk {
+	display: inline-block;
+	justify-content: space-evenly;
+	background-color: white;
+}
+
+.bottomImage {
+	height: 90px;
+	width: 300px;
+}
+.iconImg {
+	height: 30px;
+	width: 30px;
+}
+
+.discount {
+	margin-top: 10px;
+	padding-top: 5px;
+	text-align: center;
+	width: 70px;
+	height: 35px;
+	color: white;
+	background-color: purple;
+}
+
+.buyBtn {
+	color: white;
+	background-color: green;
+	width: 50px;
+}
+
+.bottomBuy {
+	display: flex;
+	justify-content: space-evenly;
+}
